@@ -53,8 +53,6 @@ class WeatherHomePage extends StatelessWidget {
               );
             }
 
-            // DEBUG: log snapshot ke console
-            debugPrint('RTDB raw snapshot: ${snapshot.data?.snapshot.value}');
 
             if (!snapshot.hasData || snapshot.data!.snapshot.value == null) {
               return Center(

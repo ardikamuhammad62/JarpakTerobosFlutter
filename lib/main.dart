@@ -83,10 +83,10 @@ class WeatherHomePage extends StatelessWidget {
             final data = Map<String, dynamic>.from(raw);
 
             // Baca dengan fallback untuk nama kunci yang berbeda
-            final suhu = data['suhu'] ?? data['temp'] ?? 0;
-            final kelembapan = data['kelembapan'] ?? data['kelembaban'] ?? 0;
-            final statusCahaya = data['status_cahaya'] ?? data['statusCahaya'] ?? "N/A";
-            final statusHujan = data['curah_hujan'] ?? data['statusHujan'] ?? "N/A";
+            final suhu = data['suhu'] ?? 0;
+            final kelembapan = data['kelembaban'] ?? 0;
+            final statusCahaya = data['statusCahaya'] ?? "N/A";
+            final statusHujan =  data['statusHujan'] ?? "N/A";
 
             return Padding(
               // Memberi padding di sekeliling body

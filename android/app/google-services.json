@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "189883996833",
+    "firebase_url": "https://stasiunmini-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "stasiunmini",
+    "storage_bucket": "stasiunmini.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189883996833:android:95094613afbdbb31c26ee0",
+        "android_client_info": {
+          "package_name": "com.example.gladi_banget"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEloF_VgK94Qs2t76Wj3uNiI6L0zibQck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189883996833:android:482ef200ee9d19f9c26ee0",
+        "android_client_info": {
+          "package_name": "com.example.terobos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEloF_VgK94Qs2t76Wj3uNiI6L0zibQck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
